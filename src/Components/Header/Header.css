@@ -1,0 +1,36 @@
+.header {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header_div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.header_link {
+  text-decoration: none;
+  color: #1f1534;
+  font-size: 18px;
+}
+
+.header_list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.header_item {
+  margin-right: 30px;
+}
+
+.header_item:first-child {
+  margin-right: 50px;
+}
+
+.header_item:last-child {
+  margin-right: 0px;
+}
