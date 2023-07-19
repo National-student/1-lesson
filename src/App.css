@@ -1,0 +1,6 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
